@@ -841,7 +841,7 @@ async def help(e):
 
     
         
-text = """RICKKY MULTI-SPAMBOT STARTED SUCCESSFULLY"""
+text = ""𝙍𝙄𝘾𝙆𝙆𝙔 𝙈𝙐𝙇𝙏𝙄-𝙎𝙋𝘼𝙈𝘽𝙊𝙏 𝙎𝙏𝘼𝙍𝙏𝙀𝘿 𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇𝙔😏""
 print(text)
 print("")
 print("SAYONARA😂😂")
