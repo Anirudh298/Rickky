@@ -6,7 +6,7 @@ from os import execl
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 from telethon.tl.functions.account import UpdateProfileRequest
-from Config import STRING, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10
+from Config import STRING, ALIVE NAME, USERNAME, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10
 import asyncio
 import telethon.utils
 from telethon.tl import functions
@@ -753,7 +753,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"😏 𝙋𝙤𝙣𝙜!\n`{ms}` 𝙢𝙨")
+        await event.edit(f"😏 𝙋𝙤𝙣𝙜!\n`{ms}` 𝙢𝙨 [{ALIVE_NAME}](https://t.me/{USERNAME})")
 
 
 
