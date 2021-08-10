@@ -371,11 +371,11 @@ async def _(e):
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
             bc = yukki[0]
-            text = "Ruk aa Raha Gaand Maarne Group Waalo Kii..."
+            text = "Joining..."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("Join ho gya Chal Abb Gaand Dilwa De Group Waalo Ki...")
+                await event.edit("Joined Successfully.")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -397,11 +397,11 @@ async def _(e):
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
             bc = yukki[0]
-            text = "Ruk aa Raha Gaand Maarne Group Waalo Kii..."
+            text = "Joining."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("Join ho gya Chal Abb Gaand Dilwa De Group Waalo Ki...")
+                await event.edit("Joined Successfully")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -425,11 +425,11 @@ async def _(e):
         if len(e.text) > 7:
             bc = yukki[0]
             bc = int(bc)
-            text = "Leave ho raha hu lwde..."
+            text = "Leaving..."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("Bhosdiwale Ho Gya Leave...")
+                await event.edit("Left Successfully")
             except Exception as e:
                 await event.edit(str(e))   
         else:
