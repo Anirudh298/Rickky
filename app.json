@@ -14,7 +14,7 @@
         "required": false
       },
       "API_ID": {
-        "description": "Telethon String Session",
+        "description": "API ID",
         "value": "",
         "required": true
       },
@@ -78,12 +78,12 @@
         
       },
       "API_HASH": {
-        "description": "Api Hash",
+        "description": "API HASH",
         "value": "",
         "required": true
       },
       "SUDO": {
-        "description": "Sudo Users Id",
+        "description": "SUDO USERS ID",
         "value": "",
         "required": true
       }
