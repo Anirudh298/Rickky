@@ -81,6 +81,8 @@
         "description": "API HASH",
         "value": "",
         "required": true
+        
+        
       },
       "SUDO": {
         "description": "SUDO USERS ID",
