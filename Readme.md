@@ -1,7 +1,7 @@
-# DAREDEVIL SPAM BOT
+# RICKKY SPAM BOT
 
 <p align="center">
-  <img src="https://telegra.ph/file/d27665076f9f473b655ab.jpg">
+  <img src="https://telegra.ph/file/68f77359a361634eaca47.jpg">
 </p>
 
 -------------------------------------------------
@@ -13,7 +13,7 @@
 
 -------------------------------------------------
 
-## 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 -[PRO](https://t.me/LEGENDJATTRAVI1)
+## 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 -[PRO](https://t.me/LMAO_1111)
 
 -------------------------------------------------
 
