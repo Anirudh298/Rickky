@@ -1,7 +1,7 @@
 {
-  "name": "DAREDEVIL-SPAM-BOT",
+  "name": "RICKKY-SPAM BOT ",
   "description": "A Powerful Telegram Spam Userbot.",
-  "logo": "https://telegra.ph/file/d27665076f9f473b655ab.jpg",
+  "logo": "https://telegra.ph/file/68f77359a361634eaca47.jpg",
   "keywords": [
     "spambot",
     "telegram",
@@ -62,6 +62,20 @@
         "description": "Telethon String Session",
         "value": "",
         "required": false
+        
+        },
+      "USERNAME": {
+        "description": "YOUR USERNAME WITHOUT @ ",
+        "value": "",
+        "required": false 
+        
+        },
+      "ALIVE_NAME": {
+        "description": "YOU ALIVE NAME ",
+        "value": "",
+        "required": false
+        
+        
       },
       "API_HASH": {
         "description": "Api Hash",
