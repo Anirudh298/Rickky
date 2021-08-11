@@ -844,7 +844,7 @@ async def help(e):
 text = """"
 print(text)
 print("")
-print("SAYONARA😂😂")
+print("YOUR BOR IS READY....  SAYONARA😂😂")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
